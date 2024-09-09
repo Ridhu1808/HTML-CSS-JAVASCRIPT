@@ -1,1 +1,3 @@
-console.log("Changing the sample file");
+export function Sample() {
+  console.log("Changing the sample file");
+}

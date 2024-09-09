@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# npm package lock file (optional, if you don't want to commit package-lock.json)
+# package-lock.json
+
+# IDE or editor settings
+.vscode/
+.idea/
+
+# Build directories (if using a build tool like Webpack or Babel)
+dist/
+build/
+
+# Coverage reports (if using a testing framework)
+coverage/

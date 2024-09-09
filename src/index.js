@@ -1,6 +1,10 @@
 import { Sample } from "./sample.js";
-const Hello = () => {
+window.Hello = function () {
   console.log("Hello, World!");
   Sample();
+  // alert("HELLLLLLOOOOOOOOO");
 };
 Hello();
+// window.Hello = function () {
+//   alert("HELLOOO SAMPLE !!");
+// };

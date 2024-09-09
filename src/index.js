@@ -1,4 +1,4 @@
-import { Sample } from "./sample.js";
+// import { Sample } from "./sample.js";
 window.Hello = function () {
   // console.log("Hello, World!");
   // Sample();

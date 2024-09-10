@@ -1,10 +1,10 @@
 import { Sample } from "./sample.js";
-window.Hello = function () {
-  console.log("Hello, World!");
-  Sample();
-  // alert("HELLLLLLOOOOOOOOO");
+const data = {
+  userId: 123,
+  name: "abc",
 };
-Hello();
-// window.Hello = function () {
-//   alert("HELLOOO SAMPLE !!");
-// };
+window.Hello = function () {
+  console.log("Hello, World!", data);
+  Sample();
+};
+Hello(); //optional to validate the function
